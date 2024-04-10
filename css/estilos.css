@@ -1,4 +1,5 @@
 body{
+    background: #1e1f24;
     color: purple;
     text-align: center;
     font-family: courier;
@@ -7,6 +8,7 @@ body{
     padding: 0;
 }
 #post{
+    background: white;
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -14,18 +16,30 @@ body{
     margin: 0 auto;
 }
 #container h1{
-
     font-size: 20px;
 }
+#cabecera #tagline{
+
+    font-size: 0.8em;
+    padding: 0 0 0 1em;
+    font-weight: 400;
+}
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
+}
 #cabecera{
-    background-color: blue;
+    box-shadow:  0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
-    width:  70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid #ddd;
-    margin: 0 auto;
-    -webkit-box-shadow: 10px 13px 53px 14px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 13px 53px 14px rgba(0,0,0,0.75);
-box-shadow: 10px 13px 53px 14px rgba(0,0,0,0.75);
+    background: #37488b;
+    font-weight: 700;
+    margin: 0;
+    padding: 0.5em; 
+}
+#container{
+    width:70%;
+    padding:0;
+    text-align:left;
+    border:1px solid #ddd;
+    margin:0 auto;
 }
